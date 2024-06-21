@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid red;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+ul a{
+    color:rgb(249, 246, 246);
+    font-size: 19px;
+    transition: all 0.3s;
+}
+ul a:hover{
+    color: brown;
+    transform: rotateY(-10px);
+}
+.logo{
+    font-weight: bold;
+    color: rgb(222, 130, 73);
+    font-size: 24px;
+}
+ .u{    
+    background-image: url(IMG_7594.jpg);
+    min-height: 130vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* min-width: 100%; */
+ }
+ .y{
+    background: linear-gradient(-90deg, rgb(98, 7, 39) 80%, white 20%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9 50px ;
+
+ }
+ .welcome{
+    font-size: 240%;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 34%;
+    /* position: relative; */
+    /* left: 22px; */
+    margin-top: 140px;
+}
+.motto{
+    color: white;
+    margin-left: 35%;
+
+}
+
+b{
+    color: rgb(3, 40, 247)
+}
+.lmbutton{
+    border-radius: 2px;
+    min-width: 8%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5 50px;
+    border-radius: 14px;
+    border-color: aliceblue;
+    background-color: transparent;
+    color: aliceblue;
+    font-weight: bold;
+    position: relative;
+    left: 44%;
+    margin-top: 50px;
+
+    transition: all 0.3s;
+}
+.lmbutton:hover{
+    cursor: pointer;
+    color: rgb(69, 43, 11);
+    background-color: azure;
+    transform: rotateY(-15px);
+}
+.display{
+    position: relative;
+    top: 53px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image1{
+    height: 400px;
+    width: 60%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(WhatsApp\ Image\ 2024-06-10\ at\ 2.04.14\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2{
+    height: 450px;
+    width: 60%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(816e71ce-7291-442c-8da4-6fb40eb9637a.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3{
+    height: 450px;
+    width: 60%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(IMG_3052.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image4{
+    height: 400px;
+    width: 50%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(IMG_7594.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.display-trail{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.display-trail:hover{
+    cursor: pointer;
+
+   
+}
+.p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+ }
+ .O{
+    font-size: 50px;
+    font-weight: bold;
+    color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 340px;
+
+ }
+ .ab{
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+    position: relative;
+    left: 290px;
+    bottom: 10px; 
+}
+.aboutus img{
+    border-radius: 50px;
+    position: relative;
+    bottom: 130px;
+    right: 3%;
+}
+.kingsabout{
+    color: rgb(98, 162, 210);
+    font-size: 58px;
+    font-weight: bold;
+}
+.ab2{
+    margin-right: 30px;
+    width: 56%;
+    color: white;
+}
+.pab kingsabout{
+    display: flex;
+    border-width: 3px;
+    padding: 6px;
+
+}
+.pab{
+    font-size: 23px;
+}
+.e{
+    background: linear-gradient(-90deg, rgb(214, 210, 209) 20%, rgb(217, 73, 73) 80%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9 50px ;
+}
+.imgab{
+    min-height: 500px;
+    width: 140%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(IMG_7594.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+    border-radius: 60px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column{
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.namecam{
+    color: rgb(112, 60, 60);
+    font-size: 25px;
+    margin-bottom: 60px;
+    background-color: black;
+    height: 30px;
+    width: 27%;
+    padding-left: 7px;
+    border-radius: 13px;
+    
+}
+.mmp{
+    position: relative;
+    bottom: 160px;
+    color: aqua;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+/* .pimage img{
+    height: 50%;
+    width: 30px;
+    padding-left: 30px;
+} */
+.pcon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding-left: 62px;
+}
+.i{
+    background-color: rgb(243, 206, 206);
+    height: 100vh;
+}
+.nameg{
+        color: rgb(112, 60, 60);
+        font-size: 25px;
+        background-color: black;
+        height: 30px;
+        width: 13%;
+        border-radius: 13px;
+        position: relative;
+        left: 650px;
+        top: 20px;
+        padding-left: 25px;
+}
+.display2{
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.display-trail2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.imagea{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(13f9f53d-5138-4df1-b96a-05f82082ce48.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageb{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(816e71ce-7291-442c-8da4-6fb40eb9637a.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagec{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(WhatsApp\ Image\ 2024-06-12\ at\ 11.48.31\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imaged{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(WhatsApp\ Image\ 2024-06-12\ at\ 11.48.21\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: rgb(82, 81, 81);
+    height: 70px;
+   
+}
+footer p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
